@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pixelatl Studio: Un estudio indie dedicado a videojuegos inolvidables. Explora nuestros proyectos y noticias.">
+    <meta name="keywords" content="Pixelatl Studio, videojuegos, estudio indie, creatividad, noticias de videojuegos">
+    <meta name="author" content="Pixelatl Studio">
+    <title>Pixelatl Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+            <img src="assets/Logo.jpg" alt="Logo de Pixelatl Studio" style="width: 50px; height: 50px; object-fit: contain; border-radius: 5px;">
+            <h1>Pixelatl Studio</h1>
+        </div>
+        <p>Explora nuestra creatividad y pasión por los videojuegos.</p>
+    </header>
+
+    <nav aria-label="Menú principal">
+        <ul>
+            <li><a data-page="inicio" href="#">Inicio</a></li>
+            <li><a data-page="nosotros" href="#">Nosotros</a></li>
+            <li><a data-page="proyectos" href="#">Proyectos</a></li>
+            <li><a data-page="noticias" href="#">Noticias</a></li>
+            <li><a data-page="contacto" href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="page active" id="inicio">
+        <h2>Bienvenidos a Pixelatl Studio</h2>
+        <p>Somos un equipo joven, con sueños grandes y un corazón lleno de pasión. Desde nuestras primeras ideas en cuadernos hasta las líneas de código que dan vida a nuestros mundos, hemos trabajado con dedicación para crear algo especial.
+
+            No contamos con grandes reconocimientos ni una larga trayectoria, pero sí con una visión clara: construir un videojuego que trascienda, que conecte con quienes lo jueguen y que sea un testimonio de lo que se puede lograr con esfuerzo y creatividad.
+            
+            Cada paso que damos es un recordatorio de que los comienzos humildes pueden marcar grandes historias. Estamos aquí para demostrarlo.
+            
+            Gracias por ser parte de este viaje.
+            
+            </p>
+        <div class="image-container" style="text-align: center; margin: 20px 0;">
+            <img src="assets/Logo.jpg" alt="Imagen representativa de creatividad en videojuegos" style="width: 100%; max-width: 600px; height: auto; border-radius: 10px;">
+        </div>
+        <div class="cta">
+            <a data-page="proyectos" href="#">Explorar Proyectos</a>
+        </div>
+    </div>
+
+    <div class="page" id="nosotros">
+        <h2>Nosotros</h2>
+        <p>Pixelatl Studio es un equipo indie dedicado a experiencias de juego inolvidables.</p>
+        <ul style="list-style: none; padding: 0;">
+            <li style="display: flex; align-items: center; margin-bottom: 20px; gap: 20px;">
+                <img src="assets/es el jano.webp" alt="Jano - Director general" style="width: 150px; height: 150px; object-fit: cover; border-radius: 10px;">
+                <div>
+                    <strong>Jano:</strong> Director general<br>
+                    <p>
+                        Jano es un apasionado de los videojuegos y uno de los dos fundadores de Pixelatl Studio. Como estudiante de ingeniería mecatrónica, su perspectiva técnica y su amor por los videojuegos lo impulsan a trabajar arduamente para hacer realidad un sueño que, aunque difícil de alcanzar, está en el corazón de todo lo que hacemos. Jano cree en la importancia de crear un ambiente donde las ideas fluyan libremente, y su visión es llevar a Pixelatl Studio a un lugar donde el esfuerzo y la pasión de un equipo joven y comprometido puedan marcar la diferencia.
+                    </p>
+                </div>
+            </li>
+            <li style="display: flex; align-items: center; margin-bottom: 20px; gap: 20px;">
+                <img src="assets/soy ese.webp" alt="Atekokoli - Director creativo" style="width: 150px; height: 150px; object-fit: cover; border-radius: 10px;">
+                <div>
+                    <strong>Atekokoli:</strong> Director creativo<br>
+                    <p>
+                        Atekokoli es el motor creativo detrás de las ideas más innovadoras de Pixelatl Studio. Como estudiante de ingeniería en sistemas computacionales y uno de los fundadores del proyecto, su enfoque meticuloso en los detalles asegura que cada proyecto tenga un impacto visual y emocional duradero. Su pasión y dedicación son las fuerzas que impulsan al equipo a lo largo de este desafiante viaje, trabajando arduamente para hacer realidad el sueño de Pixelatl Studio.
+                    </p>
+                </div>
+            </li>
+            <li style="display: flex; align-items: center; margin-bottom: 20px; gap: 20px;">
+                <img src="assets/el joshi.webp" alt="Atekokoli - Director creativo" style="width: 150px; height: 150px; object-fit: cover; border-radius: 10px;">
+                <div>
+                    <strong>Joshi:</strong> Especialista en Audio<br>
+                    <p>
+                        Con un talento natural para la música y la habilidad de tocar varios instrumentos, Joshi es quien da vida al mundo sonoro de nuestros proyectos. Su creatividad y oído agudo le permiten diseñar efectos y melodías que conectan con las emociones del jugador, elevando la experiencia de cada videojuego a otro nivel.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>    
+    
+
+    <div class="page" id="proyectos">
+        <h2>Proyectos</h2>
+        <p>En Pixelatl Studio, cada paso que damos está marcado por la pasión de contar historias únicas. Actualmente, estamos trabajando en una demo que servirá como primer vistazo a las mecánicas jugables de nuestro videojuego principal. Esta demo, con una historia independiente, nos permitirá explorar, ajustar y perfeccionar las bases que darán forma a la experiencia final.
+            Nuestro objetivo es ofrecer una jugabilidad fluida, desafiante y envolvente, mientras desarrollamos una narrativa que conecte emocionalmente con los jugadores. Aunque aún estamos en las primeras etapas, nuestra visión es clara: crear un videojuego que sea mucho más que solo un juego, sino una experiencia que deje una huella duradera.
+            El videojuego principal que estamos construyendo contará con un mundo profundo y personajes con historias que explorar, y nos enfocaremos en desarrollar una jugabilidad que combine mecánicas clásicas y modernas de los metroidvania. Con cada avance, nos acercamos más a nuestra meta de ofrecer algo verdaderamente memorable.</p>
+        <div class="image-container" style="text-align: center; margin: 20px 0;">
+            <img src="assets/imagen par proyecto.jpg" alt="Proyecto destacado" style="width: 100%; max-width: 600px; height: auto; border-radius: 10px;">
+        </div>
+    </div>
+
+    <div class="page" id="noticias">
+        <h2>Noticias</h2>
+        <p>Mantente actualizado con las últimas novedades.</p>
+        <div class="image-gallery" style="display: flex; flex-direction: column; gap: 20px; margin: 20px 0;">
+            <div style="text-align: center;">
+                <img src="assets/Captura de pantalla 2025-01-24 184808.png" alt="Noticia 1" style="width: 100%; max-width: 600px; height: auto; border-radius: 10px;">
+                <h3 style="margin-top: 10px;">Un nuevo hogar digital</h3>
+                <p>Hoy damos un gran paso al lanzar nuestra página web. Este espacio será donde compartiremos nuestras noticias, avances y todo lo relacionado con Pixelatl Studio. ¡Gracias por visitarnos! Estás siendo parte del comienzo de algo grande.</p>
+            </div>
+            <div style="text-align: center;">
+                <img src="assets/Foto del instagram.jpg" alt="Noticia 2" style="width: 100%; max-width: 600px; height: auto; border-radius: 10px;">
+                <h3 style="margin-top: 10px;">Conectando con el mundo</h3>
+                <p>¡Estamos en Instagram! Nos emociona compartir con ustedes cada avance, cada detalle y cada momento detrás de cámaras. Síguenos y acompáñanos en este viaje, donde cada publicación será una ventana al mundo de Pixelatl Studio. ¡Queremos que seas parte de nuestra historia!</p>
+            </div>
+            <div style="text-align: center;">
+                <img src="assets/personajes 3-pagina web.JPG" alt="Noticia 3" style="width: 100%; max-width: 600px; height: auto; border-radius: 10px;">
+                <h3 style="margin-top: 10px;">El arte cobra vida</h3>
+                <p>Cada trazo, cada color y cada forma en nuestro arte conceptual son reflejo de las ideas que dan vida a nuestro videojuego. Estos primeros bocetos son solo el inicio de un viaje visual que transportará a los jugadores a un mundo lleno de detalles únicos, donde cada rincón tiene una historia que contar.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div class="page" id="contacto">
+        <h2>Contacto</h2>
+        <p>Correo: pixelatlstudio97@gmail.com</p>
+        <p>Síguenos en: 
+            <a href="proximamente.html" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="proximamente.html" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/pixelatl_studio?igsh=MWNkejJsdm42ancxdA==" target="_blank"><i class="fab fa-instagram"></i></a>
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pixelatl Studio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
